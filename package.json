@@ -4,7 +4,7 @@
   "description": "Realtime Chat App",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server",
     "dev": "nodemon server"
   },
   "author": "Yves Shtick",
@@ -16,8 +16,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
-  },
-  "engines": {
-    "node": "14.17.0"
   }
 }
